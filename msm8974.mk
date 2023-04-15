@@ -38,7 +38,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml
 
 # Advanced Display
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     AdvancedDisplay
 
 # APEX
@@ -49,14 +49,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
     android.hardware.audio.effect@2.0-impl \
-    audio.a2dp.default \
-    audio.primary.msm8974 \
     audio.r_submix.default \
     audio.usb.default \
     libaudio-resampler \
-    libqcomvisualizer \
-    libqcompostprocbundle \
-    libqcomvoiceprocessing
+#    audio.a2dp.default \
+#    libqcomvisualizer \
+#    libqcompostprocbundle \
+#    libqcomvoiceprocessing
+#    audio.primary.msm8974 \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -75,18 +75,18 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-    copybit.msm8974 \
-    gralloc.msm8974 \
-    hwcomposer.msm8974 \
-    memtrack.msm8974
+#    memtrack.msm8974
+#    copybit.msm8974 \
+#    gralloc.msm8974 \
+#    hwcomposer.msm8974 \
 
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     camera.device@1.0-impl \
     camera.msm8974 \
-    libxml2 \
-    Snap
+    libxml2# \
+#    Snap
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -135,11 +135,11 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service
 
 # Lights
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.samsung
 
 # LiveDisplay
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service.samsung-qcom
 
 # Media
@@ -150,7 +150,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/msm8974-common/configs/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml
 
 # OMX
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     libc2dcolorconvert \
     libOmxAacEnc \
     libOmxAmrEnc \
@@ -162,7 +162,7 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Power HAL
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
 # RenderScript HAL
@@ -184,7 +184,7 @@ PRODUCT_PACKAGES += \
     TimeKeep
 
 # Touch features
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.samsung
 
 # Trust HAL

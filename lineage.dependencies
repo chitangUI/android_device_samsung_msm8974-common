@@ -10,5 +10,9 @@
   {
     "repository": "android_device_qcom_sepolicy-legacy",
     "target_path": "device/qcom/sepolicy-legacy"
+  },
+  {
+    "repository": "android_system_tools_dtbtool",
+    "target_path": "system/tools/dtbtool"
   }
 ]
